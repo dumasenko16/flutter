@@ -5,11 +5,11 @@ import 'api_client.dart';
 
 class AppRepository {
 
-  //ApiClient _apiRequest;
-  //Dio dio;
+  ApiClient _apiRequest;
+  Dio dio;
 
-  //AppRepository() {
-    //dio = Dio();
-    //apiRequest = ApiClient(dio);
-  //}
-}//
+  AppRepository() {
+    dio = Dio();
+    apiRequest = ApiClient(dio);
+  }
+}
